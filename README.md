@@ -2,7 +2,7 @@
 Next.js related projects (Server Side React)
 
 ## BitzPrice
-```
+```markdown
 Next.js app which checks and displays the current Bitcoin value in a few different currencies.
 
 ### Quick Start
