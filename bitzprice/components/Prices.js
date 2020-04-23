@@ -4,6 +4,7 @@ class Prices extends React.Component {
         currency: 'GBP'
     }
 
+
     render() {
 
         let list = '';
@@ -14,7 +15,7 @@ class Prices extends React.Component {
             <span className="badge badge-primary">
                     {this.props.bpi.GBP.code}
                 </span>
-                <strong>&nbsp; {this.props.bpi.USD.rate}</strong>
+                <strong>&nbsp; {this.props.bpi.GBP.rate}</strong>
             </li>
 
         } else if (this.state.currency === 'EUR') {
@@ -23,7 +24,7 @@ class Prices extends React.Component {
             <span className="badge badge-primary">
                     {this.props.bpi.EUR.code}
                 </span>
-                <strong>&nbsp; {this.props.bpi.USD.rate}</strong>
+                <strong>&nbsp; {this.props.bpi.EUR.rate}</strong>
             </li>
 
         } else if (this.state.currency === 'USD') {
